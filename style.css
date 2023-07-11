@@ -265,13 +265,24 @@ span {
     margin: 24px 0px;
 }
 
+.contact-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+
+.contact-flex img {
+    width: 400px;
+}
+
 input {
-    width: 700px;
+    width: 500px;
     height: 64px;
     border-radius: 8px;
     border: 2px solid crimson;
     padding: 0px 20px;
-    margin: 0px 20px;
+    margin: 10px 0px;
 }
 
 footer {
