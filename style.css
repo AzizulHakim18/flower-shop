@@ -181,3 +181,16 @@ header {
     flex-shrink: 0;
     border-radius: 5px;
 }
+
+.social-post {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    margin: 24px 0px;
+}
+
+.social-post-img {
+    width: 270px;
+    height: 330px;
+}
