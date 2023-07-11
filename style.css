@@ -83,3 +83,39 @@ header {
     line-height: 30px;
     margin: 24px 0px;
 }
+
+.flower-card {
+    width: 375px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    position: relative;
+}
+
+.flower-card-img {
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 35px;
+}
+
+.flower-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.flower-qoute {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin: 32px 0px;
+}
