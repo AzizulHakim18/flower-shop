@@ -194,3 +194,44 @@ header {
     width: 270px;
     height: 330px;
 }
+
+.hero-subscription {
+    height: 449px;
+    width: 100%;
+    margin: 128px 0px;
+    border-radius: 8px;
+    background-image: url('/bg-img/Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-subscription-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hero-subscription-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0px;
+}
+
+input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border: 0px;
+    padding: 0px 20px;
+}
